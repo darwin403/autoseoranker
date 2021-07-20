@@ -2,10 +2,12 @@ import Layout from "../components/Layout";
 import FAQs from "../components/FAQs";
 
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import isURL from "validator/lib/isURL";
 
 export default function Index() {
   const router = useRouter();
+  const websiteInput = useRef<HTMLInputElement>(null);
   const [website, setWebsite] = useState("");
 
   return (
@@ -23,24 +25,37 @@ export default function Index() {
               your website on Google for <b>free</b>!
             </p>
             <form
-              className="d-grid gap-2 d-md-flex justify-content-md-start my-5"
+              noValidate
+              className="d-grid gap-2 d-md-flex justify-content-md-start my-5 needs-validation"
               onSubmit={(e) => {
                 e.preventDefault();
+
+                if (!isURL(website)) {
+                  websiteInput.current?.classList.remove("is-valid");
+                  websiteInput.current?.classList.add("is-invalid");
+
+                  return false;
+                }
+
+                websiteInput.current?.classList.remove("is-invalid");
+                websiteInput.current?.classList.add("is-valid");
+
                 router.push(`/process?website=${website}`);
               }}
             >
               <div className="form-floating flex-grow-1">
                 <input
-                  required
-                  type="url"
+                  ref={websiteInput}
+                  type="text"
                   className="form-control"
                   placeholder="name@example.com"
                   onChange={(e) => setWebsite(e.target.value)}
+                  required
                 />
                 <label>Your website</label>
               </div>
               <button
-                type="submit"
+                // type="submit"
                 className="btn btn-primary btn-lg px-4 me-md-2"
               >
                 Rank Now
