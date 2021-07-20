@@ -15,7 +15,7 @@ export default function Index() {
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-3">Auto SEO Ranker</h1>
             <p className="lead mb-5">
-              Tired of SEO agencies that cannot guarantee you rank you first on
+              Tired of SEO agencies that cannot guarantee you rank one on
               Google? With our tool, you can{" "}
               <b>
                 <u>Instantly rank</u>
@@ -47,17 +47,19 @@ export default function Index() {
               </button>
             </form>
             <div>
-              <div
-                className="fb-like"
-                data-href="https://www.facebook.com/Auto-SEO-Ranker-107294308307540"
-                data-width=""
-                data-layout="standard"
-                data-action="like"
-                data-size="small"
-                data-share="true"
-              ></div>
+              <div style={{ maxWidth: "320px", overflow: "hidden" }}>
+                <div
+                  className="fb-like"
+                  data-href="https://www.facebook.com/studiohawkau/"
+                  data-width=""
+                  data-layout="standard"
+                  data-action="like"
+                  data-size="small"
+                  data-share="true"
+                />
+              </div>
               <a
-                href="https://twitter.com/AutoSEORanker?ref_src=twsrc%5Etfw"
+                href="https://twitter.com/studiohawk?ref_src=twsrc%5Etfw"
                 className="twitter-follow-button"
                 data-size="small"
                 data-show-count="true"
@@ -69,7 +71,7 @@ export default function Index() {
 
           <div className="col-lg-6 d-flex justify-content-lg-end">
             <img
-              style={{ mixBlendMode: "luminosity" }}
+              style={{ filter: "grayscale(1)" }}
               src="https://images.unsplash.com/photo-1593438002985-ce805be04da9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
               className="d-block img-fluid rounded"
               alt="Bootstrap Themes"

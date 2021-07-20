@@ -17,7 +17,6 @@ class MyDocument extends Document {
     return (
       <Html className="h-100">
         <Head>
-          <title>Auto SEO Ranker</title>
           <script
             async
             src="https://platform.twitter.com/widgets.js"

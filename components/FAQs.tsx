@@ -15,17 +15,17 @@ export default function FAQs() {
           </Accordion.Header>
           <Accordion.Body>
             <b>Absolutely!</b> Google spends billions of dollars on its search
-            and a million other companies depend on it to get seen on the web.
+            and a million other businesses depend on it to get seen on the web.
             Therefore, it is not a surprise a simple and yet-legal method always
-            exists while all other Fortune 500 companies have missed out.
+            exists while all other Fortune 500 companies have seemed missed out.
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Why are SEO agencies unreliable?</Accordion.Header>
           <Accordion.Body>
             <strong>Ranking on google is easy stuff.</strong> If anyone says
-            otherwise they are probably lying to you. With this tool you the
-            first hand experience how easy it is to get ranked on Google!
+            otherwise they are probably lying to you. With this tool you get
+            first hand experience on how easy it is to get ranked on Google!
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

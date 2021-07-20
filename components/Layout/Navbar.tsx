@@ -5,8 +5,8 @@ export default function Navbar() {
     <header className="py-3 mb-4 bg-primary text-white border-bottom">
       <div className="container d-flex flex-wrap justify-content-center ">
         <Link href="/">
-          <a className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none text-light">
-            <span className="fs-4">AutoSEORanker.com</span>
+          <a className="d-flex align-items-center mb-md-0 me-md-auto text-decoration-none text-light">
+            <strong>AutoSEORanker.com</strong>
           </a>
         </Link>
 
@@ -17,7 +17,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="mailto:developer@studiohawk.com.au">
+            <Link href="mailto:contact@studiohawk.com.au">
               <a className="nav-link text-light">Contact</a>
             </Link>
           </li>
