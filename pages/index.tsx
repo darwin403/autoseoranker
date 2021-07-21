@@ -15,14 +15,14 @@ export default function Index() {
       <div className="container col-xxl-8 px-4 py-5">
         <div className="row align-items-center g-5 py-5">
           <div className="col-lg-6">
-            <h1 className="display-5 fw-bold lh-1 mb-3">Auto SEO Ranker</h1>
+            <h1 className="display-5 fw-bold lh-1 mb-3">Auto SEORanker Pro</h1>
             <p className="lead mb-5">
               Tired of SEO agencies that cannot guarantee you rank one on
-              Google? With our tool, you can{" "}
+              Google? Good. With our tool, you can{" "}
               <b>
                 <u>Instantly rank</u>
               </b>{" "}
-              your website on Google for <b>free</b>!
+              your website on Google for <b>free, instantly</b>!
             </p>
             <form
               noValidate
