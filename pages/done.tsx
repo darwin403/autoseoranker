@@ -48,8 +48,9 @@ export default function Index() {
               now ranks <b>first</b> on Google! Check out a sample Google Search
               result for a keyword from your website{" "}
               <a
-                target="_blank"
                 href="https://bit.ly/3BkmqTq"
+                target="_blank"
+                rel="noreferrer"
                 onClick={(e) => {
                   // check if desktop since autoplay doesn't work on mobile
                   if (typeof window.orientation == "undefined") {
