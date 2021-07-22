@@ -17,12 +17,10 @@ export default function Index() {
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-3">Auto SEORanker Pro</h1>
             <p className="lead mb-5">
-              Tired of SEO agencies that cannot guarantee you rank one on
+              Tired of SEO agencies that cannot guarantee you rank you first on
               Google? Good. With our tool, you can{" "}
-              <b>
-                <u>Instantly rank</u>
-              </b>{" "}
-              your website on Google for <b>free, instantly</b>!
+              <b>&#34;Instantly Rank&#34;</b> your website on Google for{" "}
+              <b>free, instantly</b>!
             </p>
             <form
               noValidate
@@ -79,7 +77,7 @@ export default function Index() {
                 data-size="small"
                 data-show-count="true"
               >
-                Follow @TwitterDev
+                Follow @StudioHawk
               </a>
             </div>
           </div>

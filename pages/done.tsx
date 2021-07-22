@@ -60,7 +60,7 @@ export default function Index() {
 
                   setTimeout(() => {
                     setShowModal(true);
-                  }, 2000);
+                  }, 2500);
                 }}
               >
                 here
