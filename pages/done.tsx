@@ -90,8 +90,14 @@ export default function Index() {
           <Modal.Body>
             <p>
               Unfortunately real SEO takes time, but we have a whole series of
-              free videos that can help you here:{" "}
+              free videos that can help you here: <br />
               <a href="http://hawkacademy.co">HawkAcademy</a>
+            </p>
+            <p>
+              To get <b>real</b> sustainable SEO results: <br />
+              <a href="https://studiohawk.com.au">StudioHawk (AU)</a>{" "}
+              <span style={{ opacity: 0.2 }}>|</span>{" "}
+              <a href="https://studiohawk.co.uk">StudioHawk (UK)</a>
             </p>
           </Modal.Body>
         </>

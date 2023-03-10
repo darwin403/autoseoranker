@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container">
         <div className="d-lg-flex justify-content-lg-between">
           <div className="text-muted mb-3 mb-md-0">
-            &#169; Copyright 2021. All rights reserved.
+            &#169; Copyright {new Date().getFullYear()}. All rights reserved.
           </div>
           <div className="text-muted">
             This isn&apos;t a scam, it&apos;s just a meme website. Made by{" "}

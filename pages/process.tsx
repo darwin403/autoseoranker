@@ -52,10 +52,7 @@ export default function Process() {
                 {website}
               </a>{" "}
               is currently being processed. In the meantime please check out our{" "}
-              <Link href="#faqs">
-                <a>FAQs</a>
-              </Link>{" "}
-              below
+              <Link href="#faqs">FAQs</Link> below
             </p>
           </div>
           <div className="progress">

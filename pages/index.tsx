@@ -10,6 +10,7 @@ export default function Index() {
   const websiteInput = useRef<HTMLInputElement>(null);
   const [website, setWebsite] = useState("");
 
+  // return <h1>LOL</h1>;
   return (
     <Layout>
       <div className="container col-xxl-8 px-4 py-5">
@@ -53,7 +54,7 @@ export default function Index() {
                 <label>Your website</label>
               </div>
               <button
-                // type="submit"
+                style={{ color: "white" }}
                 className="btn btn-primary btn-lg px-4 me-md-2"
               >
                 Rank Now
@@ -84,7 +85,6 @@ export default function Index() {
 
           <div className="col-lg-6 d-flex justify-content-lg-end">
             <img
-              style={{ filter: "grayscale(1)" }}
               src="https://images.unsplash.com/photo-1593438002985-ce805be04da9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
               className="d-block img-fluid rounded"
               alt="Bootstrap Themes"
